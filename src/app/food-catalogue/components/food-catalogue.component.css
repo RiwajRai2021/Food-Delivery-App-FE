@@ -1,0 +1,38 @@
+/* Restaurant name banner with description */
+.restaurant-header {
+  background-color: grey; /* Changed to grey */
+  color: white;
+  padding: 10px; /* Reduced padding */
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  position: relative; /* To position the checkout button */
+}
+
+.restaurant-header h1 {
+  font-size: 24px; /* Increased font size */
+}
+
+.restaurant-header p {
+  margin-top: 5px;
+  font-size: 18px; /* Increased font size */
+}
+
+/* Centered and styled Food Menu title */
+.food-menu-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Arial Black', Gadget, sans-serif; /* Changed font */
+}
+
+/* Existing styles for food item banners */
+.food-item .card {
+  box-shadow: none;
+  border: 1px solid #e5e5e5;
+  transition: box-shadow 0.3s;
+}
+
+.food-item .card:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,68 @@
+/* Order Summary Banner Styles */
+.card-header {
+  background-color: grey; /* Changed to grey */
+  color: white;
+  padding: 10px;
+  font-size: 14px; /* Adjusted font size */
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Dialog Container Styles */
+.dialog-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+/* Dialog Box Styles */
+.dialog-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Order Summary Button Styles */
+.btn-grey {
+  background-color: grey; /* Changed to grey */
+  color: white;
+  border: none;
+  padding: 8px 16px; /* Decreased size */
+  font-size: 14px; /* Smaller font size */
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px 5px; /* Spacing around buttons */
+}
+
+.btn-grey:hover {
+  background-color: #5a5a5a; /* Darker shade on hover */
+}
+
+.btn-grey:active {
+  background-color: #4a4a4a; /* Even darker shade on active */
+}
+
+/* Close Button Styles */
+.btn-danger {
+  background-color: #DC3545; /* Blending color */
+  color: white;
+  border: none;
+  padding: 10px 20px; /* Decreased size */
+  font-size: 14px; /* Smaller font size */
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px 5px; /* Spacing around buttons */
+}
+
+.btn-danger:hover {
+  background-color: #c82333; /* Darker shade on hover */
+}
+
+.btn-danger:active {
+  background-color: #bd2130; /* Even darker shade on active */
+}
